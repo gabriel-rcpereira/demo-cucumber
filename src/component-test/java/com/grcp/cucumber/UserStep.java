@@ -1,13 +1,13 @@
-package com.grcp.cucumber.component;
+package com.grcp.cucumber;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class UserStep {
+public class UserStep extends SpringComponentTest {
 
     @When("^the client calls /api/v1/users/(\\d+)$")
-    public void the_client_issues_GET_version(int userId) throws Throwable{
+    public void the_client_issues_GET_version(int userId) throws Throwable {
 
     }
 

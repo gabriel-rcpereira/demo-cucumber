@@ -1,10 +1,10 @@
-package com.grcp.cucumber.component;
+package com.grcp.cucumber;
 
 import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @CucumberContextConfiguration
-@SpringBootTest
+@SpringBootTest(classes = Application.class)
 public class SpringComponentTest {
 
 }

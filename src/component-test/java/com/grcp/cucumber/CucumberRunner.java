@@ -1,6 +1,4 @@
-package com.grcp.cucumber.component;
-
-//import org.junit.platform.suite.api.ConfigurationParameter;
+package com.grcp.cucumber;//import org.junit.platform.suite.api.ConfigurationParameter;
 //import org.junit.platform.suite.api.IncludeEngines;
 //import org.junit.platform.suite.api.SelectClasspathResource;
 //import org.junit.platform.suite.api.Suite;
@@ -17,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "classpath:component/feature")
-public class CucumberRunnerIT {
+@CucumberOptions(features = "classpath:feature")
+public class CucumberRunner {
 
 }

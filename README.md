@@ -1,6 +1,6 @@
-#Component tests - demo-cucumber 
+# Component tests - demo-cucumber 
 
-##When does it run?
+## When does it run?
 
 The component tests were set to run along Verify goal
 
@@ -8,7 +8,7 @@ The component tests were set to run along Verify goal
 .\mvnw verify
 ```
 
-##Folder structure
+## Folder structure
 
 In order to separate the Unit and Component Test, there is a folder to hold the Component Test located at ```src/component-test```. 
 
